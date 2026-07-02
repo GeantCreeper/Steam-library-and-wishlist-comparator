@@ -7,9 +7,10 @@ Analyse de Wishlist : Compare votre liste de souhaits avec l'ensemble des biblio
 
 Exportation : Génère un fichier texte (resultats_wishlist_famille.txt) listant les jeux trouvés avec leur lien direct vers le magasin Steam.
 
-Configuration :
-Ouvrez le fichier et modifiez les variables suivantes :
+Configuration : Ouvrez le fichier et modifiez les variables suivantes :
 
-API_KEY : Remplacez par votre clé API Steam.
+API_KEY : Remplacez par votre clé API Steam en allant sur https://steamcommunity.com/dev/apikey.
 
-STEAM_IDS : Remplacez par les SteamID64 des membres de votre famille. Le premier ID doit être le vôtre (celui dont on analyse la liste de souhaits).
+MY_STEAM_ID : Votre propre SteamID64.
+
+STEAM_IDS : Remplacez par les SteamID64 des membres de votre famille.
