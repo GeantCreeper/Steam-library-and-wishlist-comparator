@@ -5,7 +5,8 @@ import os
 API_KEY = 'YOUR_STEAM_API_KEY'  # Remplacez par votre clé API Steam
 
 # Mettez VOTRE SteamID64 en premier dans la liste, suivi de ceux de votre famille
-STEAM_IDS = ['YOUR_STEAM_ID64', 'FAMILY_MEMBER_1_STEAM_ID64', 'FAMILY_MEMBER_2_STEAM_ID64']
+MY_STEAM_ID = 'YOUR_STEAM_ID64' # Remplacez par votre SteamID64
+STEAM_IDS = [MY_STEAM_ID, 'FAMILY_MEMBER_1_STEAM_ID64', 'FAMILY_MEMBER_2_STEAM_ID64'] # Remplacez par les SteamID64 de vos membres de famille
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36'
